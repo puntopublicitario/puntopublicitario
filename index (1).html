@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@PuntoPublicitario.pe - Enlaces</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(270deg, #000000, #ff00aa);
+      background-size: 400% 400%;
+      animation: movimientoFondo 12s ease infinite;
+    }
+
+    @keyframes movimientoFondo {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      color: #ffffff;
+      text-shadow: 0 0 10px #000;
+    }
+
+    .username {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 28px;
+      text-shadow: 0 0 5px #000;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .link-button {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 2px solid #ff00aa;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px auto;
+      padding: 15px 20px;
+      width: 80%;
+      max-width: 400px;
+      font-size: 16px;
+      transition: transform 0.2s, background-color 0.3s;
+      backdrop-filter: blur(5px);
+    }
+
+    .link-button i {
+      font-size: 18px;
+    }
+
+    .link-button:hover {
+      background-color: #ff00aa;
+      color: black;
+      transform: scale(1.05);
+    }
+
+    .marquee {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      animation: mover 8s linear infinite;
+      white-space: nowrap;
+      overflow: hidden;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    @keyframes mover {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="marquee">PUNTO PUBLICITARIO</div>
+  <h1 class="username">@PuntoPublicitario.pe</h1>
+  <p>🚀 Especialistas en Diseño y Publicidad Digital</p>
+
+  <a class="link-button" href="https://www.facebook.com/LILIANA.ISUIZA07?locale=es_LA" target="_blank">
+    <i class="fab fa-facebook"></i> Facebook
+  </a>
+  <a class="link-button" href="https://www.instagram.com/puntopublicitarioofi/" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a class="link-button" href="https://www.tiktok.com/@punto.publicitario.ofi?lang=es-419" target="_blank">
+    <i class="fab fa-tiktok"></i> TikTok
+  </a>
+  <a class="link-button" href="https://wa.me/c/51936107299" target="_blank">
+    <i class="fab fa-whatsapp"></i> Catálogo WhatsApp
+  </a>
+</body>
+</html>
